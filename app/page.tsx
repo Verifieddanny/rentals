@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { FaStar } from "react-icons/fa";
+import { FaRegStar } from "react-icons/fa6";
 import SearchForm from "./components/SearchForm";
 
 export default function Home() {
@@ -29,7 +31,7 @@ export default function Home() {
             <SearchForm/>
         </div>
       </main>
-      <div className="bg-white text-[#010101] md:py-24 py-4 md:px-96 px-8 w-screen h-fit relative left-1/2 right-1/2 -mx-[50vw]">
+      <div className="bg-white text-[#010101] md:py-24 py-4 lg:px-96 md:px-12 px-8 w-screen h-fit relative left-1/2 right-1/2 -mx-[50vw]">
 <p className="md:text-5xl text-3xl font-thin italic text-center md:mb-12 mb-6">Stay with us</p>
       <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum, facere eligendi quasi repudiandae sequi, aspernatur amet architecto quaerat, tempore consequatur? Saepe reprehenderit error eos adipisci quasi veritatis laborum non. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti libero consequuntur ullam voluptate doloremque necessitatibus repellendus, voluptas accusamus vel repudiandae et, nesciunt autem unde porro ducimus culpa dolore quidem error.</p>
       <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum, facere eligendi quasi repudiandae sequi, aspernatur amet architecto quaerat, tempore consequatur? Saepe reprehenderit error eos adipisci quasi veritatis laborum non.</p>
@@ -47,6 +49,93 @@ export default function Home() {
         </div>
        
       </div>
+
+      <div className="bg-white text-[#010101] md:py-24 py-4 lg:px-12  px-8 w-screen h-fit relative left-1/2 right-1/2 -mx-[50vw]">
+<p className="md:text-5xl text-3xl font-thin italic text-center md:mb-12 mb-6">Reviews</p>
+
+        <div className="flex flex-col flex-wrap justify-center gap-6 md:flex-row md:gap-x-12">
+          <div className="w-[23rem] rounded-md bg-[#010101] text-white shadow-md p-5">
+          <div className="flex items-center justify-between mb-5">
+
+            <Image src="/assets/man1.jpg" alt="user1" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full" />
+            <p className="font-bold text-xl text-center">Rashid Kanur</p>
+          </div>
+
+          <p className="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat deserunt, vitae cum aut id fugit ex aliquam eaque iusto! Deserunt aperiam quae ducimus quibusdam delectus vitae voluptatibus dolores quaerat molestiae</p>
+
+          <div className="w-full flex items-center justify-center gap-x-4">
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+            <FaRegStar className="text-yellow-500" size={24} />
+
+          </div>
+            </div>
+
+
+            <div className="w-[23rem] rounded-md bg-[#010101] text-white shadow-md p-5">
+          <div className="flex items-center justify-between mb-5">
+
+            <Image src="/assets/woman1.jpg" alt="user2" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full object-cover " />
+            <p className="font-bold text-xl text-center">Jannet Martin</p>
+          </div>
+
+          <p className="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat deserunt, vitae cum aut id fugit ex aliquam eaque iusto! Deserunt aperiam quae ducimus quibusdam delectus vitae voluptatibus dolores quaerat molestiae</p>
+
+          <div className="w-full flex items-center justify-center gap-x-4">
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+
+          </div>
+            </div>
+
+
+            <div className="w-[23rem] rounded-md bg-[#010101] text-white shadow-md p-5">
+          <div className="flex items-center justify-between mb-5">
+
+            <Image src="/assets/man2.webp" alt="user3" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full object-cover" />
+            <p className="font-bold text-xl text-center">Rashid Kanur</p>
+          </div>
+
+          <p className="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat deserunt, vitae cum aut id fugit ex aliquam eaque iusto! Deserunt aperiam quae ducimus quibusdam delectus vitae voluptatibus dolores quaerat molestiae</p>
+
+          <div className="w-full flex items-center justify-center gap-x-4">
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+            <FaRegStar className="text-yellow-500" size={24} />
+            <FaRegStar className="text-yellow-500" size={24} />
+
+          </div>
+            </div>
+
+            <div className="w-[23rem] rounded-md bg-[#010101] text-white shadow-md p-5">
+          <div className="flex items-center justify-between mb-5">
+
+            <Image src="/assets/woman2.webp" alt="user4" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full object-cover" />
+            <p className="font-bold text-xl text-center">Rashid Kanur</p>
+          </div>
+
+          <p className="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat deserunt, vitae cum aut id fugit ex aliquam eaque iusto! Deserunt aperiam quae ducimus quibusdam delectus vitae voluptatibus dolores quaerat molestiae</p>
+
+          <div className="w-full flex items-center justify-center gap-x-4">
+            <FaStar className="text-yellow-500" size={24} />
+            <FaStar className="text-yellow-500" size={24} />
+            <FaRegStar className="text-yellow-500" size={24} />
+            <FaRegStar className="text-yellow-500" size={24} />
+            <FaRegStar className="text-yellow-500" size={24} />
+
+          </div>
+            </div>
+            </div>
+     
+
+      </div>
+
     </>
   );
 }
