@@ -29,8 +29,23 @@ export default function Home() {
             <SearchForm/>
         </div>
       </main>
-      <div className="bg-white w-screen h-screen relative left-1/2 right-1/2 -mx-[50vw]">
+      <div className="bg-white text-[#010101] md:py-24 py-4 md:px-96 px-8 w-screen h-fit relative left-1/2 right-1/2 -mx-[50vw]">
+<p className="md:text-5xl text-3xl font-thin italic text-center md:mb-12 mb-6">Stay with us</p>
+      <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum, facere eligendi quasi repudiandae sequi, aspernatur amet architecto quaerat, tempore consequatur? Saepe reprehenderit error eos adipisci quasi veritatis laborum non. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti libero consequuntur ullam voluptate doloremque necessitatibus repellendus, voluptas accusamus vel repudiandae et, nesciunt autem unde porro ducimus culpa dolore quidem error.</p>
+      <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum, facere eligendi quasi repudiandae sequi, aspernatur amet architecto quaerat, tempore consequatur? Saepe reprehenderit error eos adipisci quasi veritatis laborum non.</p>
+      <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum, facere eligendi quasi repudiandae sequi, aspernatur amet architecto quaerat, tempore consequatur? Saepe reprehenderit error eos adipisci quasi veritatis laborum non.</p>
+      
+      </div>
 
+      <div className="relative z-10 w-full  flex md:flex-row flex-col md:justify-between justify-center md:gap-y-0 gap-y-24 gap-x-12 px-4 items-center py-12 ">
+
+        <Image src="/assets/livingroom.jpg" alt="living room" quality={80} height={400} width={400} className="w-1/2 rounded-md" />
+
+        <div className="p-7 w-1/2 aspect-square h-[437px] rounded-md bg-[#f1f1f1] text-center">
+          <p className="font-bold mb-12">Welcome to your ultimate Sheffield experience!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque doloribus officiis, ad aliquid nulla magni, sapiente laboriosam repellat voluptate dolorum recusandae ipsam neque tempore! Eum optio nobis perferendis dolorem?</p>
+        </div>
+       
       </div>
     </>
   );
