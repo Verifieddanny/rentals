@@ -1,6 +1,6 @@
 "use client"
 // import type { Metadata } from "next";
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
 import {  Poppins } from 'next/font/google'
 import "./globals.css";
 import Navbar from "./components/Navbar";
