@@ -31,7 +31,7 @@ export default function Home() {
             <SearchForm/>
         </div>
       </main>
-      <div className="bg-white text-[#010101] md:py-24 py-4 lg:px-96 md:px-12 px-8 w-screen h-fit relative left-1/2 right-1/2 -mx-[50vw]">
+      <div className="bg-[#f1f1f1] text-[#010101] md:py-24 py-4 lg:px-96 md:px-12 px-8 w-screen h-fit relative left-1/2 right-1/2 -mx-[50vw]">
 <p className="md:text-5xl text-3xl font-thin italic text-center md:mb-12 mb-6">Stay with us</p>
       <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum, facere eligendi quasi repudiandae sequi, aspernatur amet architecto quaerat, tempore consequatur? Saepe reprehenderit error eos adipisci quasi veritatis laborum non. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti libero consequuntur ullam voluptate doloremque necessitatibus repellendus, voluptas accusamus vel repudiandae et, nesciunt autem unde porro ducimus culpa dolore quidem error.</p>
       <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum, facere eligendi quasi repudiandae sequi, aspernatur amet architecto quaerat, tempore consequatur? Saepe reprehenderit error eos adipisci quasi veritatis laborum non.</p>
@@ -50,11 +50,11 @@ export default function Home() {
        
       </div>
 
-      <div className="bg-white text-[#010101] md:py-24 py-4 lg:px-12  px-8 w-screen h-fit relative left-1/2 right-1/2 -mx-[50vw]">
+      <div className="bg-[#f1f1f1] text-[#010101] md:py-24 py-4 lg:px-12  px-8 w-screen h-fit relative left-1/2 right-1/2 -mx-[50vw]">
 <p className="md:text-5xl text-3xl font-thin italic text-center md:mb-12 mb-6">Reviews</p>
 
         <div className="flex flex-col flex-wrap justify-center items-center gap-6 md:flex-row md:gap-x-12">
-          <div className="w-[23rem] rounded-md bg-[#010101] text-white shadow-md p-5">
+          <div className="w-[23rem] rounded-md bg-[#010101] text-[#f1f1f1] shadow-md p-5">
           <div className="flex items-center justify-between mb-5">
 
             <Image src="/assets/man1.jpg" alt="user1" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full" />
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
 
 
-            <div className="w-[23rem] rounded-md bg-[#010101] text-white shadow-md p-5">
+            <div className="w-[23rem] rounded-md bg-[#010101] text-[#f1f1f1] shadow-md p-5">
           <div className="flex items-center justify-between mb-5">
 
             <Image src="/assets/woman1.jpg" alt="user2" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full object-cover " />
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
 
 
-            <div className="w-[23rem] rounded-md bg-[#010101] text-white shadow-md p-5">
+            <div className="w-[23rem] rounded-md bg-[#010101] text-[#f1f1f1] shadow-md p-5">
           <div className="flex items-center justify-between mb-5">
 
             <Image src="/assets/man2.webp" alt="user3" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full object-cover" />
@@ -113,7 +113,7 @@ export default function Home() {
           </div>
             </div>
 
-            <div className="w-[23rem] rounded-md bg-[#010101] text-white shadow-md p-5">
+            <div className="w-[23rem] rounded-md bg-[#010101] text-[#f1f1f1] shadow-md p-5">
           <div className="flex items-center justify-between mb-5">
 
             <Image src="/assets/woman2.webp" alt="user4" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full object-cover" />
