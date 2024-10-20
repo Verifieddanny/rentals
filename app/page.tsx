@@ -53,7 +53,7 @@ export default function Home() {
       <div className="bg-white text-[#010101] md:py-24 py-4 lg:px-12  px-8 w-screen h-fit relative left-1/2 right-1/2 -mx-[50vw]">
 <p className="md:text-5xl text-3xl font-thin italic text-center md:mb-12 mb-6">Reviews</p>
 
-        <div className="flex flex-col flex-wrap justify-center gap-6 md:flex-row md:gap-x-12">
+        <div className="flex flex-col flex-wrap justify-center items-center gap-6 md:flex-row md:gap-x-12">
           <div className="w-[23rem] rounded-md bg-[#010101] text-white shadow-md p-5">
           <div className="flex items-center justify-between mb-5">
 
@@ -98,7 +98,7 @@ export default function Home() {
           <div className="flex items-center justify-between mb-5">
 
             <Image src="/assets/man2.webp" alt="user3" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full object-cover" />
-            <p className="font-bold text-xl text-center">Rashid Kanur</p>
+            <p className="font-bold text-xl text-center">Kevin Bolder</p>
           </div>
 
           <p className="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat deserunt, vitae cum aut id fugit ex aliquam eaque iusto! Deserunt aperiam quae ducimus quibusdam delectus vitae voluptatibus dolores quaerat molestiae</p>
@@ -117,7 +117,7 @@ export default function Home() {
           <div className="flex items-center justify-between mb-5">
 
             <Image src="/assets/woman2.webp" alt="user4" quality={80} height={200} width={200} className=" aspect-square w-[3.5rem] rounded-full object-cover" />
-            <p className="font-bold text-xl text-center">Rashid Kanur</p>
+            <p className="font-bold text-xl text-center">Jessoca Allen</p>
           </div>
 
           <p className="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat deserunt, vitae cum aut id fugit ex aliquam eaque iusto! Deserunt aperiam quae ducimus quibusdam delectus vitae voluptatibus dolores quaerat molestiae</p>
