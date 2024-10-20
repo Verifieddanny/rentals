@@ -6,6 +6,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Sidenav from "./components/Sidenav";
 import { useState } from "react";
+import Footer from './components/Footer';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -51,6 +52,7 @@ export default function RootLayout({
         </div>
        
         {children}
+        <Footer/>
       </body>
     </html>
   );
