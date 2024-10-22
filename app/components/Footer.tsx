@@ -11,7 +11,7 @@ function Footer() {
 <p className='items-center flex'> <CiMail className='mr-2' /> test@test.com</p>  <p className='flex items-center'> <FaPhone className='mr-2' />+9188372890</p>
 </div>
 
-<div className='w-full flex justify-center items-center gap-x-5 '>
+<div className='w-full flex justify-center items-center gap-x-5 px-2'>
 
     <p className='cursor-pointer pointer-events-auto'>Copyright © 2024</p>
     <p className='cursor-pointer pointer-events-auto'>Privacy Policy</p>

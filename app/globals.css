@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 *{
-  @apply m-0 p-0 box-border   ;
+  @apply m-0 p-0 box-border border-2 border-red-700  ;
 }
 
 :root {
@@ -21,15 +21,16 @@
 body {
   /* background: var(--foreground);
   color: var(--background); */
+  overflow-x: hidden !important;
 }
 
 
 html {
-  @apply w-[100vw] h-[100vh] overflow-x-hidden;
+  @apply w-[100vw]  ;
 }
-body {
-  @apply max-w-[1300px] w-full mx-auto h-full bg-[#101010];
-}
+/* body {
+  @apply max-w-[1300px] md:w-full w-screen overflow-x-hidden mx-auto  bg-[#101010];
+} */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
