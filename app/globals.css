@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 *{
-  @apply m-0 p-0 box-border border-2 border-red-700  ;
+  @apply m-0 p-0 box-border   ;
 }
 
 :root {
