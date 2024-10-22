@@ -3,12 +3,12 @@ import React from 'react';
 const SearchForm = () => {
   return (
 
-    <div className='relative'>
-      <div className='bg-[#f1f1f1]  p-6 rounded-lg max-w-md mx-auto'>
+    <div className='relative w-full'>
+      <div className='bg-[#f1f1f1]  p-6 rounded-lg w-[90%] w-md mx-auto'>
       <div className="space-y-4">
         <div className="relative">
           <select className="w-full p-3 bg-white rounded-md appearance-none text-gray-700 pr-8">
-            <option disabled selected>Where to go?</option>
+            <option disabled selected defaultValue={""}>Where to go?</option>
             
           </select>
           <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
@@ -18,15 +18,15 @@ const SearchForm = () => {
           </div>
         </div>
         
-        <div className="flex pr-4">
-          <div className="flex-1 relative">
-            <p >Arrive:</p>
-            <input type="date" placeholder="Arrive" className="w-[95%] p-3 bg-white rounded-md pl-10" />
+        <div className="flex justify-center gap-x-2  w-full">
+          <div className=" relative w-[45%]">
+            <p className='w-fit'>Arrive:</p>
+            <input type="date" placeholder="Arrive" className="w-full py-2  bg-white rounded-md " />
             
           </div>
-          <div className="flex-1 relative">
-            <p >Depart:</p>
-            <input type="date" placeholder="Depart" className="w-[95%] p-3 bg-white rounded-md pl-10" />
+          <div className=" relative w-[45%]">
+            <p className='w-fit'>Depart:</p>
+            <input type="date" placeholder="Depart" className="w-full py-2  bg-white rounded-md " />
             
           </div>
         </div>

@@ -43,10 +43,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       > */}
           <body
-        className={`${poppins.className}  antialiased relative`}
+        className={`${poppins.className}  max-w-[1300px] w-full overflow-x-hidden mx-auto  bg-[#101010] antialiased relative`}
       >
         <Sidenav setVisibility={setVisibility} visibility={visibility} />
-        <div className="w-full h-fit fixed left-0 top-3 px-0 z-40">
+        <div className="w-screen h-fit fixed left-0 top-3 px-0 z-40">
 
         <Navbar setVisibility={setVisibility} />
         </div>
