@@ -17,26 +17,26 @@ function Sidenav({setVisibility, visibility}: ChildProps) {
       <h1 className='font-bold text-5xl text-center'>Test</h1>
       <div className='mt-16 px-12 flex flex-col  w-full text-[#010101] uppercase'>
 
-      <Link href="/">
+      <Link href="/" onClick={() => setVisibility(false)}>
       <div className='w-full py-4 border-b-2 border-b-[#010101]  hover:bg-white scale-110 transition-all duration-300'>
         Home
       </div>
       </Link>
-      <Link href="/listing">
+      <Link href="/listing" onClick={() => setVisibility(false)}>
       <div className='w-full py-4 border-b-2 border-b-[#010101]  hover:bg-white scale-110 transition-all duration-300'>
         Listings
       </div></Link>
-      <Link href="/">
+      <Link href="/" onClick={() => setVisibility(false)}>
       <div className='w-full py-4 border-b-2 border-b-[#010101]  hover:bg-white scale-110 transition-all duration-300'>
         Explore
       </div>
       </Link>
-      <Link href="/">
+      <Link href="/" onClick={() => setVisibility(false)}>
       <div className='w-full py-4 border-b-2 border-b-[#010101]  hover:bg-white scale-110 transition-all duration-300'>
         Stay Longer
       </div>
       </Link>
-      <Link href="/">
+      <Link href="/" onClick={() => setVisibility(false)}>
       <div className='w-full py-4 border-b-2 border-b-[#010101]  hover:bg-white scale-110 transition-all duration-300'>
         Contact
       </div>
